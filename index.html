@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="header">
+    <div class="header-container">
+        <div class="logo"><a href="#">Pizza<span>Time</span></a></div>
+
+        <ul class="header-menu">
+            <li class="header-item"><a href="#pizza">ПИЦЦА</a></li>
+            <li class="header-item"><a href="#about">О НАС</a></li>
+            <li class="header-item"><a href="#contact">КОНТАКТЫ</a></li>
+            <li class="header-item"><a href="tel:79999999999">+7 (999) 999-99-99</a></li>
+        </ul>
+        <button class="hamburger" data-popup="popup-menu">&#9776;</button>
+
+    </div>
+</div>
+
+<div class="main">
+    <div class="main-container">
+        <div class="main-info">от итальянского повара</div>
+        <h1>Лучшая пицца
+            в Москве
+        </h1>
+        <a href="#menu" class="btn">Выбрать</a>
+    </div>
+</div>
+
+<div id="menu" class="menu">
+    <div class="menu-container">
+        <div class="menu-nav">
+            <h2 class="menu-nav-tittle">Меню</h2>
+            <nav class="menu-nav-items">
+                <ul class="menu-nav-wrapper">
+                    <li class="menu-item-btn">
+                        <button type="button" class="menu-btn active" data-filter="all">все</button>
+                    </li>
+                    <li class="menu-item-btn">
+                        <button type="button" class="menu-btn" data-filter="mushrooms">грибные</button>
+                    </li>
+                    <li class="menu-item-btn">
+                        <button type="button" class="menu-btn" data-filter="meat">мясные</button>
+                    </li>
+                    <li class="menu-item-btn">
+                        <button type="button" class="menu-btn" data-filter="cheese">сырные</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="pizza" class="menu-items">
+            <div class="menu-item" data-category="meat">
+                <div class="menu-img">
+                    <img class="product-img" src="images/1.png" alt="">
+                </div>
+                <div class="menu-title">Салями</div>
+                <div class="menu-descr">Салями, картофель и морковь, огурцы
+                    маринованные, моцарелла, цыпленок,
+                    ветчина и французский соус
+                </div>
+                <div class="menu-size">
+                    <div class="size-items">
+                        <button data-product-sizeprice="950  ₽" class="size-item size-active">35см</button>
+                        <button data-product-sizeprice="850  ₽" class="size-item">30см</button>
+                        <button data-product-sizeprice="750  ₽" class="size-item">25см</button>
+                    </div>
+                </div>
+                <div class="menu-order">
+                    <div class="menu-cost">850 ₽</div>
+                    <button class="btn-cost" type="button">заказать</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="meat">
+                <div class="menu-img">
+                    <img class="product-img" src="images/2.png" alt="">
+                </div>
+                <div class="menu-title">Хит</div>
+                <div class="menu-descr">Картофель и морковь, огурцы
+                    маринованные, моцарелла, цыпленок,
+                    ветчина и французский соус
+                </div>
+                <div class="menu-size">
+                    <div class="size-items">
+                        <button data-product-sizeprice="950  ₽" class="size-item size-active">35см</button>
+                        <button data-product-sizeprice="850  ₽" class="size-item">30см</button>
+                        <button data-product-sizeprice="750  ₽" class="size-item">25см</button>
+                    </div>
+                </div>
+                <div class="menu-order">
+                    <div class="menu-cost">950 ₽</div>
+                    <button class="btn-cost" type="button">заказать</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="mushrooms">
+                <div class="menu-img">
+                    <img class="product-img" src="images/3.png" alt="">
+                </div>
+                <div class="menu-title">Ветчина-грибы</div>
+                <div class="menu-descr">Салями, картофель и морковь, огурцы
+                    маринованные, моцарелла, цыпленок,
+                    ветчина и французский соус
+                </div>
+                <div class="menu-size">
+                    <div class="size-items">
+                        <button data-product-sizeprice="950  ₽" class="size-item size-active">35см</button>
+                        <button data-product-sizeprice="850  ₽" class="size-item">30см</button>
+                        <button data-product-sizeprice="750  ₽" class="size-item">25см</button>
+                    </div>
+                </div>
+                <div class="menu-order">
+                    <div class="menu-cost">800 ₽</div>
+                    <button class="btn-cost" type="button">заказать</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="meat">
+                <div class="menu-img">
+                    <img class="product-img" src="images/4.png" alt="">
+                </div>
+                <div class="menu-title">Карбонара</div>
+                <div class="menu-descr">Салями, курица, моцарелла, говядина,
+                    ветчина и французский соус
+                </div>
+                <div class="menu-size">
+                    <div class="size-items">
+                        <button data-product-sizeprice="950  ₽" class="size-item size-active">35см</button>
+                        <button data-product-sizeprice="850  ₽" class="size-item">30см</button>
+                        <button data-product-sizeprice="750  ₽" class="size-item">25см</button>
+                    </div>
+                </div>
+                <div class="menu-order">
+                    <div class="menu-cost">1250 ₽</div>
+                    <button class="btn-cost" type="button">заказать</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="cheese">
+                <div class="menu-img">
+                    <img class="product-img" src="images/5.png" alt="">
+                </div>
+                <div class="menu-title">Фирменная</div>
+                <div class="menu-descr">Томатно-сливочный соус, бекон, моцарелла</div>
+                <div class="menu-size">
+                    <div class="size-items">
+                        <button data-product-sizeprice="950  ₽" class="size-item size-active">35см</button>
+                        <button data-product-sizeprice="850  ₽" class="size-item">30см</button>
+                        <button data-product-sizeprice="750  ₽" class="size-item">25см</button>
+                    </div>
+                </div>
+                <div class="menu-order">
+                    <div class="menu-cost">890 ₽</div>
+                    <button class="btn-cost" type="button">заказать</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="mushrooms">
+                <div class="menu-img">
+                    <img class="product-img" src="images/6.png" alt="">
+                </div>
+                <div class="menu-title">Ассорти</div>
+                <div class="menu-descr">Картофель моцарелла, цыпленок, грибы,
+                    ветчина и французский соус
+                </div>
+                <div class="menu-size">
+                    <div class="size-items">
+                        <button data-product-sizeprice="950 ₽" class="size-item size-active">35см</button>
+                        <button data-product-sizeprice="850 ₽" class="size-item">30см</button>
+                        <button data-product-sizeprice="750 ₽" class="size-item">25см</button>
+                    </div>
+                </div>
+                <div class="menu-order">
+                    <div class="menu-cost">850 ₽</div>
+                    <button class="btn-cost" type="button">заказать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="about" class="about">
+    <div class="about-container">
+        <div class="about-info">
+            <h2 class="about-title">О нас</h2>
+            <div class="about-text">Доставим вам горячую пиццу менее чем за час или пицца бесплатно.
+                Мы готовим пиццу только из свежих продуктов. Каждый день мы покупаем свежие овощи, грибы и мясо.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact" class="contacts">
+    <div class="contacts-container ">
+        <h2 class="contacts-title">Контакты</h2>
+        <div class="cont">
+            <div class="map">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab55a52d9afdedc5d7b26d7f884c16f81910b02cefb8bd1c6be41298c5d7a87cd&amp;source=constructor"
+                        width="500" height="400" frameborder="0"></iframe>
+            </div>
+            <div class="contact-info">
+                <div class="address">
+                    <div class="contact-title">Адрес</div>
+                    <div class="contact-info">г. Москва, Преображенская площадь, 8</div>
+                </div>
+                <div class="phone">
+                    <div class="contact-title">Телефон</div>
+                    <div class="contact-info">+7 (911) 711-21-23</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <a href="#" >PizzaTime 2020</a>
+</div>
+
+<div id="popup-menu" class="popup">
+    <div class="wrapper">
+        <div class="popup-container">
+            <button class="btn-close"></button>
+            <div class="popup-menu">
+                <a href="#pizza" class="popup-item">Пицца</a>
+                <a href="#about" class="popup-item">О нас</a>
+                <a href="#contact" class="popup-item">Контакты</a>
+                <a href="tel:79999999999" class="popup-item-tel popup-item">+7 (999) 999-99-99</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="popup-cost" class="popup">
+    <div class="wrapper">
+        <div class="popup-container">
+            <button class="btn-close"></button>
+            <div class="popup-order">
+                <h2 class="popup-title">Заполните форму</h2>
+                <div class="popup-text">Мы привезем вам горячую пиццу за 50 минут</div>
+                <div class="popup-order-item">
+                    <img class="popup-img" src="images/1.png" alt="">
+                    <h3 class="order-title-info">
+                        <span class="order-product-title">Салями</span>
+                        <span class="order-product-price">850 ₽</span>
+                    </h3>
+                    <h3 class="order-size-popup">35 см</h3>
+                </div>
+                <form class="form" method="post">
+                    <label>
+                        <input class="order-info-title" type="hidden" name="pizza">
+                    </label>
+                    <label>
+                        <input class="order-info-price" type="hidden" name="cost">
+                    </label>
+                    <label>
+                        <input class="order-info-size" type="hidden" name="size">
+                    </label>
+                    <label>
+                        <input type="text" name="name" placeholder="Имя" class="input">
+                    </label>
+                    <label>
+                        <input type="text" name="phone" placeholder="Телефон" class="input">
+                    </label>
+                    <label>
+                        <input type="text" name="address" placeholder="Адрес" class="input">
+                    </label>
+                    <select name="pay" class="input">
+                        <option value="Оплата наличными">Оплата наличными</option>
+                        <option value="Оплата картой">Оплата картой</option>
+                    </select>
+                    <button class="btn-popup">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="popup">
+    <div class="wrapper">
+        <div class="popup-container">
+            <button class="btn-close"></button>
+            <div class="success">
+                Спасибо за Ваш заказ!
+            </div>
+        </div>
+    </div>
+</div>
+<div class="popup">
+    <div class="wrapper">
+        <div class="popup-container">
+            <button class="btn-close"></button>
+            <div class="popup-error">
+                Произошла ошибка!
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
